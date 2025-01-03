@@ -1,0 +1,7 @@
+Prefix pipelines/TGCN/
+Plugin A3TGCN inputfile data/ outputfile A3T/
+Plugin ASTGCN inputfile data2/ outputfile AST/
+Plugin ARIMA inputfile data/los_speed.csv outputfile none
+Plugin HA inputfile data/los_speed.csv outputfile none
+Plugin KSTGCN inputfile data3/ outputfile KST/
+Plugin GPUGCN inputfile data/ outputfile GPU/
